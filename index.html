@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, orientation=landscape">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>智能故障分析系统</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+</head>
+<body>
+    <div class="tablet-landscape">
+        <nav class="navbar">
+            <div class="navbar-title">智能故障分析系统</div>
+        </nav>
+        
+        <div class="content">
+            <div class="features-grid">
+                <!-- 故障大模型分析图标 -->
+                <div class="feature-card" id="fault-analysis">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- 齿轮+电路板图标 -->
+                        <circle cx="12" cy="12" r="9" stroke="#007AFF" stroke-width="2"/>
+                        <path d="M12 3V5M12 19V21M3 12H5M21 12H19M18.36 5.64L16.95 7.05M7.05 16.95L5.64 18.36M18.36 18.36L16.95 16.95M7.05 7.05L5.64 5.64" stroke="#007AFF" stroke-width="2" stroke-linecap="round"/>
+                        <!-- 电路板细节 -->
+                        <rect x="8" y="8" width="8" height="8" rx="1" stroke="#007AFF" stroke-width="1.5"/>
+                        <rect x="10" y="10" width="4" height="4" rx="0.5" stroke="#007AFF" stroke-width="1.5"/>
+                        <circle cx="12" cy="12" r="1" fill="#007AFF"/>
+                    </svg>
+                    <div class="feature-title">故障大模型分析</div>
+                </div>
+                
+                <!-- 3D交互角色图标 -->
+                <div class="feature-card" id="3d-character">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- 金属质感人物图标 -->
+                        <path d="M12 8C14.2091 8 16 6.20914 16 4C16 1.79086 14.2091 0 12 0C9.79086 0 8 1.79086 8 4C8 6.20914 9.79086 8 12 8Z" fill="#C4C4C4"/>
+                        <path d="M20 12C20 10.4087 18.2091 8 16 8H8C5.79086 8 4 10.4087 4 12V20C4 21.5913 5.79086 24 8 24H16C18.2091 24 20 21.5913 20 20V12Z" fill="#E5E5E5"/>
+                        <path d="M10 16H14V18H10V16Z" fill="#007AFF"/>
+                        <path d="M8 12H16V14H8V12Z" fill="#007AFF"/>
+                    </svg>
+                    <div class="feature-title">王老修</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

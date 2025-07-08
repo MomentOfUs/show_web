@@ -1,0 +1,26 @@
+{
+  "name": "device-repair-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.45",
+    "crypto-js": "^4.2.0",
+    "smoothscroll-polyfill": "^0.4.4",
+    "tailwindcss": "^3.2.4",
+    "vant": "^4.9.20",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vue-webrtc": "^1.0.0",
+    "vuetify": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20"
+  }
+}
